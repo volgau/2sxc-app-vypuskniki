@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.00.00" ModuleVersion="11.04.00" ExportDate="2021-07-10T09:43:44.6839387+03:00">
+  <Header>
+    <App Guid="a71ee5e9-95ca-4cad-936d-339915db2068" />
+    <Language Default="ru-RU" />
+    <Dimensions>
+      <Dimension DimensionID="4" Name="русский (Россия)" SystemKey="" ExternalKey="ru-RU" Active="true" />
+    </Dimensions>
+  </Header>
+  <AttributeSets>
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="2SexyContent-App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" Name="Vypusknik" Description="" Scope="2SexyContent" AlwaysShareConfiguration="false">
+      <Attributes>
+        <Attribute StaticName="Name" Type="String" IsTitle="true">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="579b21b8-3f71-42d9-8ac6-dc42a07f4729" Json="True" KeyNumber="681">
+            <Value Key="CustomJavaScript" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="DefaultValue" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="Disabled" Value="False" Type="Boolean">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="DisableTranslation" Value="False" Type="Boolean">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="InputType" Value="string-default" Type="String" />
+            <Value Key="Name" Value="Name" Type="String" />
+            <Value Key="Notes" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="Placeholder" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="Required" Value="True" Type="Boolean">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="713698d4-df96-491f-8952-f5f0251520b1" Json="True" KeyNumber="681">
+            <Value Key="DropdownValues" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="InputType" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-default" AttributeSetName="@string-default" EntityGUID="4b75ee20-f8c2-43e4-99b6-eaa9d21b37bf" Json="True" KeyNumber="681" />
+        </Attribute>
+        <Attribute StaticName="Text" Type="String" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="7bc7c9f4-0ad0-4c03-bbf5-28d9e7b5e6c1" Json="True" KeyNumber="682">
+            <Value Key="InputType" Value="string-wysiwyg-tinymce" Type="String" />
+            <Value Key="Name" Value="Text" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="Image" Type="Hyperlink" IsTitle="false">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="f050818e-9599-4f6c-bdb0-025fe1c5ddf1" Json="True" KeyNumber="683">
+            <Value Key="CustomJavaScript" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="DefaultValue" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="Disabled" Value="False" Type="Boolean">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="DisableTranslation" Value="False" Type="Boolean">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="InputType" Value="hyperlink-default" Type="String" />
+            <Value Key="Name" Value="Image" Type="String" />
+            <Value Key="Notes" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="Placeholder" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="Required" Value="False" Type="Boolean">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@Hyperlink" AttributeSetName="@Hyperlink" EntityGUID="0b5865ed-9aec-4663-8410-081931b98b53" Json="True" KeyNumber="683">
+            <Value Key="Buttons" Value="adam,more" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="DefaultDialog" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="FileFilter" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="Paths" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="ServerResourceMapping" Value="" Type="String">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="ShowAdam" Value="True" Type="Boolean">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="ShowFileManager" Value="False" Type="Boolean">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="ShowImageManager" Value="True" Type="Boolean">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+            <Value Key="ShowPagePicker" Value="False" Type="Boolean">
+              <Dimension DimensionID="4" ReadOnly="false" />
+            </Value>
+          </Entity>
+        </Attribute>
+      </Attributes>
+    </AttributeSet>
+    <AttributeSet StaticName="7a1da366-24ec-4185-a573-2017e7abc67c" Name="VypusknikiHeader" Description="" Scope="2SexyContent" AlwaysShareConfiguration="false">
+      <Attributes>
+        <Attribute StaticName="Title" Type="String" IsTitle="true">
+          <Entity AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="5756363e-424b-4b98-9e3a-4c24b22b4df7" Json="True" KeyNumber="680">
+            <Value Key="InputType" Value="string-default" Type="String" />
+            <Value Key="Name" Value="Title" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+        </Attribute>
+      </Attributes>
+    </AttributeSet>
+  </AttributeSets>
+  <Entities>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="09919b40-1198-42b1-8d4a-cd17c97a1c15" Json="True" KeyNumber="15">
+      <Value Key="AllowRazorTemplates" Value="True" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="AllowTokenTemplates" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Description" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="DisplayName" Value="Vypuskniki" Type="String" />
+      <Value Key="Folder" Value="Vypuskniki" Type="String" />
+      <Value Key="Hidden" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="OriginalId" Value="" Type="String" />
+      <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="RequiredVersion" Value="08.03.00" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="SupportsAjaxReload" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Version" Value="00.01.00" Type="String" />
+    </Entity>
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="c0b586df-763b-42e9-b114-f11aa5c8a3d8" KeyNumber="15" />
+    <Entity AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="5a6cd138-e244-4c57-9df7-460b2f91a39f" KeyNumber="15" />
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="6e728065-15e8-41b1-a6b8-27e7dbf49d39" Json="True">
+      <Value Key="ContentDemoEntity" Value="74d4ec71-8bc7-4217-bec4-7391c51a1bb2" Type="Entity">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="ContentTypeStaticName" Value="ad3180f5-5732-4b36-9102-3d1c80860d05" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="IsHidden" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="ListContentDemoEntity" Value="2c5108a5-4ce2-4e13-bf96-4f6042a76ecd" Type="Entity">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="ListContentTypeStaticName" Value="7a1da366-24ec-4185-a573-2017e7abc67c" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Location" Value="Portal File System" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Vypuskniki" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Path" Value="_Vypuskniki.cshtml" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="PresentationTypeStaticName" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="PublishData" Value="False" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="StreamsToPublish" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Type" Value="C# Razor" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="UseForList" Value="True" Type="Boolean">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="ViewNameInUrl" Value="" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="74d4ec71-8bc7-4217-bec4-7391c51a1bb2">
+      <Value Key="Image" Value="" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="&lt;Выпускник&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="7a1da366-24ec-4185-a573-2017e7abc67c" AttributeSetName="VypusknikiHeader" EntityGUID="2c5108a5-4ce2-4e13-bf96-4f6042a76ecd">
+      <Value Key="Title" Value="&lt;Список выпускников&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="63509c3d-ad70-4c0e-9883-444ebae20f85">
+      <Value Key="Image" Value="file:106494" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Гедз Федор" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Выпускник по направлению &amp;laquo;Землеустройство и кадастры&amp;raquo; профиль &amp;laquo;Городской кадастр&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Хочется рассказать о творческом, инициативном студенте, отзывчивом человеке, профессионале своего дела, который излагает свои мысли в поэзии&amp;nbsp;&amp;mdash; Фёдоре Гедз.&lt;/p&gt;&#xA;&lt;p&gt;Федор - это творческая личность, реализующая себя с разных сторон.&lt;/p&gt;&#xA;&lt;p&gt;За свою активную деятельность на факультете он успел не раз поучаствовать в конкурсах чтецов и занять первые места.&lt;/p&gt;&#xA;&lt;p&gt;Активный участник мероприятий в общежитиях и в университет.&lt;/p&gt;&#xA;&lt;p&gt;Федор всегда руководствовался принципом: &amp;laquo;Делай то, что тебе нравится, и не делай то, что тебе не нравится&amp;raquo;. Именно так он выбрал профессию.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Скука и отсутствие интереса не стоят никаких денег. Если ты делаешь то, что доставляет тебе удовольствие, успех обязательно придёт, потому что удовлетворение и радость от работы каждый день&amp;nbsp;&amp;ndash; это уже успех!&amp;raquo;&lt;/p&gt;&#xA;&lt;p&gt;Уже ко второму курсу Федор понял настоящую ценность внеучебных проектов и мероприятий. Ведь это не только крайне полезный опыт, но и прекрасные люди, с которыми работаешь. Именно возможность познакомиться, подружиться и поработать с новыми, классными людьми являлась главной мотивацией.&lt;/p&gt;&#xA;&lt;p&gt;В студенческие годы он писал маслом картины, начал творить стихи.&lt;/p&gt;&#xA;&lt;p&gt;Является автором серии книг &quot;Дубовая роща&quot;.&lt;/p&gt;&#xA;&lt;p&gt;Отмечен на доске почета в военном учебном центре.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="e664f071-a639-4f72-b1b7-df1648903c3f">
+      <Value Key="Image" Value="file:106491" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Гузенко Екатерина" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;В 2017 году поступила в Волгоградский ГАУ на эколого-мелиоративный факультет.&lt;/p&gt;&#xA;&lt;p&gt;Екатерина сразу же нашла себе по душе любимые увлечения и постаралась максимально в них себя реализовать. Она стала солисткой духового оркестра, и смогла добиться успеха в данном направлении, а также имела честь выступать на всех мероприятиях и конкурсах и даже гастролировать с выступлениями. Каждый концертный номер Катя ставила с любовью в сердце и была наставником и помощником для ребят во всех музыкальных начинаниях.&lt;/p&gt;&#xA;&lt;p&gt;Кроме того наша Екатерина является обладательницей таких больших титулов, как Мисс ВолГАУ 2019 и Вице Мисс Студенчества Волгограда 2020.&lt;/p&gt;&#xA;&lt;p&gt;Помимо творческих талантов, еще Катя принимала участие в благотворительных акциях в качестве волонтёра, и также стала участницей замечательного движения по восстановлению Волго-Ахтубинской поймы.&lt;/p&gt;&#xA;&lt;p&gt;Так как Катюша у нас эколог, то быть полезной этому миру для неё важнее всего, поэтому сдав экзамены она получила удостоверение экологического инспектора. Продолжая тему экологии, у Кати получилось воплотить в жизнь невероятный социальный проект по защите нашей природы чем она безусловно может гордиться.&lt;/p&gt;&#xA;&lt;p&gt;Четыре года учёбы для Кати пролетели как один красочный и насыщенный день. За все время обучения Катю сопровождали самые лучшие и талантливые ребята, которые помогали и поддерживали ее во всем.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Знаете, у нас принято говорить, что Аграрий-это семья, потому что, попадая в это место мы становимся родными людьми&lt;/p&gt;&#xA;&lt;p&gt;Так и есть, для меня ВолГАУ стал вторым домом.&lt;/p&gt;&#xA;&lt;p&gt;Спасибо ВолГАУ за то, что подарил возможность реализовать все свои желания и мечты. Это замечательное место, где не только получают знания, но и раскрывают все свои таланты. Я люблю тебя, Аграрий, и говорю за всё огромное спасибо!&amp;raquo;&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="13940155-779a-4144-b9f2-950303b4a1cd">
+      <Value Key="Image" Value="file:106492" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Свиридонова Ирина" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Выпускник направления &amp;laquo;Землеустройство и кадастры&amp;raquo;, профиль &amp;laquo;Землеустройство&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Эколого-мелиоративный факультет Волгоградского ГАУ&amp;nbsp;&amp;mdash; это место, где можно не только учиться, но и заниматься разнообразной внеучебной деятельностью. Перед талантливой Ириной стоял огромный выбор направлений, в которых она могла себя реализовать. Начиная от интеллектуальных игр и волонтерства на мероприятиях различного уровня (от факультетского до международного) и заканчивая студенческими марафонами, всероссийскими студенческими фестивалями, ведением мероприятий, и это далеко не все.&lt;/p&gt;&#xA;&lt;p&gt;Но в своей студенческой жизни она отдала приоритет&amp;nbsp;&amp;ndash; танцу!&lt;/p&gt;&#xA;&lt;p&gt;С первого курса Ирина входила в состав &quot;Золотого колоса&quot;. В декабре 2019 г. в составе коллектива &quot;Калейдоскоп&quot; заняла первое место в Межфракультетском смотре с народным танцев, благодаря этому достижению Ирину пригласили в феврале 2020 г. на кастинг в новый коллектив современного танца. Так она стала частью команды &quot;Big shot&quot;.&lt;/p&gt;&#xA;&lt;p&gt;Ирина ставила перед собой задачу&amp;nbsp;&amp;mdash; не бояться и пробовать себя в чем-то новом, ошибаться и помнить, что студенческая жизнь может быть полна незабываемых моментов, которые ты сам для себя создаешь.&lt;/p&gt;&#xA;&lt;p&gt;Таким образом, в городе Казань в 2021 г. на VIII фестивале студенческого творчества высших учебных заведений Минсельхоза России стала лауреатом III степени в составе народного ансамбля песни и пляски &quot;Золотой колос&quot; с танем &quot;Плясуха&quot;, а также лауреатом I степени в составе коллектива современного танца &quot;Big shot&quot; с танцем &quot;Гонщики&quot;.&lt;/p&gt;&#xA;&lt;p&gt;Ирина считает: &amp;laquo;Участвуя во внеучебной деятельности, ты точно найдешь себе новых друзей с такими же интересами. Студенческая жизнь может быть полна незабываемых моментов, которые ты сам для себя создаешь. Танец&amp;nbsp;&amp;ndash; это непростое направление, но именно поэтому оно мне и нравится, что хочется развиваться дальше.&amp;raquo;&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="5b0f16d7-f667-4424-a981-81c3e45d8a7d">
+      <Value Key="Image" Value="file:106490" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Пазухина Александра" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Выпускница 2021 года эколого-мелиоративного факультета магистратуры по направлению &amp;laquo;Водоснабжение и водоотведение&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Ещё обучаясь на бакалавре, Саша сразу же выбрала себе направление деятельности в сфере общежитий, ведь желание сделать жизнь студентов, проживающих в общежитии интереснее и красочнее, было всегда у нее на первом месте. Продолжив обучение в магистратуре, Александра стала развивать данное направление далее, а уже через полгода смогла добиться высоких результатов и вывести команду на областной уровень. Александра одна из первых председателей общежитий вуза, кто стал бронзовым призером конкурса &amp;laquo;Лучший председатель студенческого совета общежитий ВО&amp;raquo; 2019 года.&lt;/p&gt;&#xA;&lt;p&gt;Учась на эколого-мелиоративном факультете, где экология является неотъемлемой частью жизни, Саша с командой общежития #3 часто, в качестве волонтёров выезжала на экологические акции &amp;laquo;Чистый берег&amp;raquo; и &amp;laquo;Очистим планету от мусора&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Кроме того, Саша смогла успешно реализовать проект &amp;laquo;6+&amp;raquo;, сплотив все общежития Вуза, чему она безмерно рада. А также, запустила брендовую одежду в общежитии #3 &amp;laquo;Третийstyle&amp;raquo; и надеется в дальнейшем расширить и запустить и в других общежитиях подобное.&lt;/p&gt;&#xA;&lt;p&gt;Наряду с активной студенческой жизнью, Саша не забывала и об обучении. Она является отличницей учебы, развивается так же и в научной деятельности, где за ее плечами написано уже более 18 научных статей. Кроме этого, она приняла участие и стала победителем 1 и 2 этапа Всероссийского конкурса среди студентов, аспирантов и молодых ученых высших учебных заведений Министерства Сельского хозяйства РФ в 2021 году.&lt;/p&gt;&#xA;&lt;p&gt;За свою деятельность в сфере общежитий была награждена благодарственными письмами областной думы в 2019 году, и комитета молодёжной политики в 2020 году, за большой вклад в развитие молодёжной политики, значительный вклад в обеспечение защиты прав студентов и активную общественную работу в профсоюзе.&lt;/p&gt;&#xA;&lt;p&gt;А в 2021 году была удостоена чести знака отличия &amp;laquo;Слава и Гордость ВолГАУ&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Хочется сказать спасибо ВУЗу и родному факультету за возможность получить достойное образование, развиваться в разных сферах деятельности, быть открытой и коммуникабельной и завести много новых знакомств! Не бойтесь пробовать себя в чем-то новом и неизведанном, чтобы открыть себя с новой стороны&amp;hellip;&amp;raquo;&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="6aafaf51-187f-4928-893a-fb79736580f6">
+      <Value Key="Image" Value="file:106493" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Шалыгин Александр" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Многие мальчишки с детства мечтают стать пожарными. Александр из тех, кто воплотил свою мечту в жизнь и теперь ежедневно спасают людей от коварного пламени. Выпускник 2021 года эколого-мелиоративного факультета по специальности &amp;laquo;Техносферная Безопасность&amp;raquo; Волгоградского государственного аграрного университета.&lt;/p&gt;&#xA;&lt;p&gt;Александр&amp;nbsp;&amp;mdash; пример самоотверженности и мужества, на сегодняшний день, он действующий донор Волгоградской области, на его счету около 20 кровосдач. Ведёт здоровый образ жизни, имеет 3 взрослый разряд по стрельбе и парашютному спорту, обладает знаком ГТО, и уже даже успел отслужить срочную службу.&lt;/p&gt;&#xA;&lt;p&gt;Саша сразу влился в активную деятельность вуза и нашёл направление себе по душе в поисковой деятельности. Ещё с 2009 Саша являлся бойцом поискового отряда &amp;laquo;Сталинградский прорыв&amp;raquo;, а с 2017 года продолжил уже заниматься поисковым делом в поисковом отряде &amp;laquo;Сталинград&amp;raquo; в нашем университете.&lt;/p&gt;&#xA;&lt;p&gt;Кроме того с 2017 года Александр стал возглавлять молодёжную казачью дружину &amp;laquo;Рассвет&amp;raquo; и смог добиться больших успехов в работе с борьбой против нарушений в студенческих общежитиях и вузе.&lt;/p&gt;&#xA;&lt;p&gt;В 2018 году Александр сделал большой шаг вперед и, победив на выборах, стал возглавлять Ассоциацию студентов аграрного университета. За небольшой период времени Саша смог добиться больших успехов, а молодежная политика вуза заиграла новыми красками. Он внёс свой необычный подход в организацию работы аграрной молодежи.&lt;/p&gt;&#xA;&lt;p&gt;С 2020 г. Александр поступил на службу в МЧС России и уже успел проявить и реализовать себя и там, работая по специальности, на данный момент имеет звание &amp;laquo;сержант внутренней службы&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Ппрофессия пожарный&amp;nbsp;&amp;mdash; одна из самых нужных и значимых в мире. Профессия&amp;nbsp;&amp;ndash; с высоким фактором риска! Она не просто полезна обществу, людям, а жизненно необходима! Чтобы её освоить, необходимо обладать определённым состоянием души и складом характера. Отзывчивость&amp;nbsp;&amp;mdash; вот главное качество пожарного.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="accf9a16-e2a5-4766-b7f3-fbb3bd792af8">
+      <Value Key="Image" Value="file:106489" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Карташов Михаил" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;В Волгоградский государственный аграрный университет Михаил поступил целенаправлено, так как было направление близкое к его будущей профессии, ну и конечно же наличие военной кафедры тоже дало привилегию данному университету.&lt;/p&gt;&#xA;&lt;p&gt;Михаил ещё с ранних лет занимался активной деятельностью и ему всегда нравилось выступать на публику, получая взамен от неё отдачу, энергию и адреналин.&lt;/p&gt;&#xA;&lt;p&gt;Как активист Миша стал проявлять себя сразу с первых дней своего обучения, как только поступил на первый курс. Свой потенциал видел уже наперёд и решил не терять времени и влиться в активную деятельность сразу же.&lt;/p&gt;&#xA;&lt;p&gt;Участвовал на протяжении всех 4 лет обучения практически во всех мероприятиях и старался раскрыть свои таланты во всех направлениях, от науки и экологии до танцев разных направлений и поездок в детские лагеря. Самым ярким событием для Михаила стало участие и последующая победа в конкурсе &amp;laquo;Мистер ВолГАУ 2020&amp;raquo;, где он смог проявить все свои творческие и спортивные таланты.&lt;/p&gt;&#xA;&lt;p&gt;Помимо активной творческой жизни, Михаил не забывал и об учебе, и обо всех своих преподавателях, которые привнесли в его жизнь что-то новое.&lt;/p&gt;&#xA;&lt;p&gt;Миша считает, что самое главное, что он получил опыт умения работать в команде, идти к своей цели, несмотря на возникшие трудности на его пути. Он считает, что команда&amp;nbsp;&amp;mdash; это впервую очередь показатель его самого и он безумно благодарен ребятам за все время проведённое вместе в Аграрном доме.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Когда начинаешь вспоминать все, что было за 4 года, в голове начинают с бешеной скоростью прокручиваться все события, моменты, связанные с вузом.&lt;/p&gt;&#xA;&lt;p&gt;Много слов благодарности, ярких воспоминаний и почетный титул, запомнятся мне на долгие долгие годы!&amp;raquo;&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="456e529c-ff09-446e-972a-f684f4ccadac">
+      <Value Key="Image" Value="file:106495" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Михайлин Андрей" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Поступил в аграрный университет в 2017 году. Поступил на направление &amp;laquo;Экология&amp;raquo;, так как это перспективная ветвь для будущего профессионального развития. Также выбором университета стало наличие военного учебного центра, где Андрей показывает хороший уровень знаний.&lt;/p&gt;&#xA;&lt;p&gt;Активную студенческую жизнь начал с 1 курса. Является председателем студенческого профактива факультета.&lt;/p&gt;&#xA;&lt;p&gt;На протяжении всей студенческой жизни участвовал в различных акциях, мероприятиях, конкурсах и конференциях. Занимал первые и призовые места.&lt;/p&gt;&#xA;&lt;p&gt;Самыми главными событиями в студенческой жизни Андрея&amp;nbsp;&amp;mdash; это получение стипендии Волгоградской области и вручение благодарственного письма Волгоградской областной думы ха значительный вклад в обеспечение защиты прав студентов, активную общественную работу в профсоюзе и в связи со 100 летием студенческого профсоюзного движения России&lt;/p&gt;&#xA;&lt;p&gt;Главный опыт, который Андрей получил за время учёбы в университете&amp;nbsp;&amp;mdash; это умение работать в команде, брать на себя ответственные решения.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="7a1da366-24ec-4185-a573-2017e7abc67c" AttributeSetName="VypusknikiHeader" EntityGUID="b15d2dca-1a3d-4ef6-a7cf-a5ac4b3ae23e">
+      <Value Key="Title" Value="Эколого-мелиоративный факультет" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="7a1da366-24ec-4185-a573-2017e7abc67c" AttributeSetName="VypusknikiHeader" EntityGUID="d50c50fe-12a4-498d-b4e0-663beff01dfc">
+      <Value Key="Title" Value="Инженерно-технологический факультет" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="0aa4df2e-932f-476a-91c6-b2123ccaaf59">
+      <Value Key="Image" Value="file:106548" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Кошкина Виктория" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;&amp;laquo;Eще в школе я была активным ребенком, принимала участие везде, где можно. Поступив на 1 курс инженерно-технологического факультета, я открыла для себя новый мир, полный неповторимых моментов, ярких впечатлений и стопроцентной занятости не только потому, что ты весь в учебе, но и потому что ведешь активный образ жизни, посещая и участвуя во всевозможных университетских мероприятиях!&amp;raquo;&lt;/p&gt;&#xA;&lt;p&gt;Свою внеучебную деятельность Виктория начала уже с первых дней обучения. Она стала руководителем пресс-центра&amp;nbsp;ИТФ.&lt;/p&gt;&#xA;&lt;p&gt;С сентября 2018 года Вика исполняла обязанности заместителя председателя Ассоциации студентов инженерно-технологического факультета!&lt;/p&gt;&#xA;&lt;p&gt;2019 год стал особенным, так как в январе 2019 года студенты инженерно-технологического факультета единогласно избрали Викторию председателем Ассоциации студентов, и она два года уверенно вела свою команду к новым достижениям и победам!&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Помню, как в меня поверила моя команда и показала свою готовность идти за мной, это было настолько трогательно, что я сразу поняла, что опускать руки, когда такие люди рядом&amp;nbsp;&amp;ndash; нельзя!&amp;nbsp;Они мое вдохновение и я благодарна каждому из них за этот путь!!!&amp;raquo;&amp;nbsp;&amp;ndash; вспоминает Вика.&lt;/p&gt;&#xA;&lt;p&gt;Помимо отличной учебы у Виктории множество личных побед и достижений:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;участие научных конференций, по итогам которых опубликованы несколько научных статей&lt;/li&gt;&#xA;&lt;li&gt;участница Всероссийского форума молодежных общественных организаций и объединений патриотической направленности в г. Казань&lt;/li&gt;&#xA;&lt;li&gt;обладательница титула &amp;laquo;Слава и гордость ВолГАУ&amp;raquo;&lt;/li&gt;&#xA;&lt;li&gt;обладательница титула &amp;laquo;Мисс ВолГАУ 2020&amp;raquo;&lt;/li&gt;&#xA;&lt;li&gt;и множество других&amp;hellip;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&amp;laquo;Это поистине самые яркие студенческие годы, о которых, я думала, можно только мечтать!&amp;raquo;&amp;nbsp;&amp;mdash; заявляет Виктория!&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="68a6b415-ff57-4e32-b6a1-b6caddc793e1">
+      <Value Key="Image" Value="file:106551" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Леонтьева Мария" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;&amp;laquo;С самого детства я принимала участие во всевозможных кружках, не только в творческих, но и спортивных. Ещё учась в школе, я понимала, что хочу учиться именно в этом вузе, именно в ВолГАУ. Поступив в 2017 году в университет, даже подумать не могла, какие потрясающие люди будут меня окружать!&amp;raquo;&lt;/p&gt;&#xA;&lt;p&gt;С первых дней обучения Мария не только отлично училась, но и начала себя проявлять в активной научной деятельности, участвовала во всех творческих мероприятиях.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Два года я активно участвовала в студенческой жизни, но после поняла, что хочу добиться достижений именно в учёбе, хотя я всегда была готова помочь родному факультету&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Мария участвовала в различных олимпиадах, конференциях и конкурсах. В 2021 году она получила диплом за I место в конкурсе за &amp;laquo;Лучшую студенческую работу по охране труда среди учреждений высшего образования Волгоградской области&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Эти 4 года обучения очень быстро пролетели и я оканчиваю инженерно-технологический факультет с красным дипломом, к которому так долго шла!&lt;/p&gt;&#xA;&lt;p&gt;Все 4 года были просто незабываемыми, рядом были люди, которые всегда поддержат и помогут! ВолГАУ&amp;nbsp;&amp;ndash; вуз больших возможностей!&amp;raquo;&amp;nbsp;&amp;ndash; констатирует Мария.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="a9cbee5c-e494-4efe-af69-79c99c7a64ed">
+      <Value Key="Image" Value="file:106550" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Непокрытый Роман" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Роман поступил в университет в 2015 году, но то, что его жизнь будет связана с сельским хозяйством, было известно с самого детства. Родители Ромы занимаются посадкой бахчевых культур, так что об этом он знает не понаслышке.&lt;/p&gt;&#xA;&lt;p&gt;Во время учебы он успешно реализовывал свой потенциал, участвуя и побеждая во многих научных конкурсах.&lt;/p&gt;&#xA;&lt;p&gt;В 2018 году он представил свою установку и выиграл в конкурсе &amp;laquo;Умник&amp;raquo;, получив грант на ее сборку и испытание.&lt;/p&gt;&#xA;&lt;p&gt;На протяжении всего обучения выигрывал конкурсы в Москве&amp;nbsp;&amp;ndash; Агросалон, конкурсы, проводимые Роскосмосом и множество других научных мероприятий.&lt;/p&gt;&#xA;&lt;p&gt;У Романа имеются десятки научных статей, которые публикуются не только в нашей стране, но и в Беларуси и Украине.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;В здоровом теле&amp;nbsp;&amp;ndash; здоровый дух&amp;raquo;&amp;nbsp;&amp;ndash; считает Роман, поэтому вот уже 8 лет он профессионально занимается спортом.&lt;/p&gt;&#xA;&lt;p&gt;За время обучения в ВУЗе, он успел выполнить норматив &amp;laquo;Мастера спорта по армлифтингу&amp;raquo; в 2018 году, а так же в 2019 он получил звание &amp;laquo;Мастера спорта по пауэрспорту&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Призовые места по армрестлингу он занимал на всероссийском турнире среди студентов целых три года подряд, так же успешно участвовал в Универсиаде вузов Минсельхоза России.&lt;/p&gt;&#xA;&lt;p&gt;Роман не собирается останавливаться на достигнутом, он планирует и дальше развивать себя и в спорте, и в науке, чтобы в дальнейшем его разработки могли помогать фермерам осуществлять работу в поле.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="c780aa0b-2b76-4350-9974-40b4cca325ce">
+      <Value Key="Image" Value="file:106552" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Хадашов Магомед" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;&amp;laquo;Я родился и вырос в деревне, так что не понаслышке знаю, что такое сельское хозяйство. С годами обучения понял, что выбрался самый верный для себя путь и факультет, который помог познать себя, приобрести практический опыт и профессиональные навыки&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Сразу же после поступления на инженерно-технологический факультет в 2017 году Магомед вступил в актив факультета и с января 2018 стал руководителем отдела межнациональных отношений, который возглавлял до самого окончания 4 курса.&lt;/p&gt;&#xA;&lt;p&gt;В составе в студотряда &amp;laquo;Механик&amp;raquo; Магомед ежегодно отрабатывал практику на полях нашей Волгоградской области. Благодаря полученным в процессе обучения теоретическим знаниям и практическому опыту Магомед является призером многочисленных Всероссийских и международных олимпиад по агроинженерии.&lt;/p&gt;&#xA;&lt;p&gt;Также он является стипендиатом Правительства РФ и Россельхозбанка.&lt;/p&gt;&#xA;&lt;p&gt;26 июня 2021 года Магомед дал клятву верности Родине на главной высоте России&amp;nbsp;&amp;ndash; на Мамаевом кургане и сейчас находится на военно-полевых сборах на полигоне Прудбой.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Я благодарен Аграрному университету и нашему инженерно-технологическому факультету за колоссальный опыт, за возможность проявить свой потенциал, за эту прекрасную студенческую жизнь! ВолГАУ&amp;nbsp;&amp;ndash; вуз больших возможностей!&amp;raquo;&amp;nbsp;&amp;ndash; утверждает Магомед.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="de69c2f9-80c6-420b-b2b5-37c296a06cc1">
+      <Value Key="Image" Value="file:106549" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Храпов Алексей" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;&amp;laquo;Я родился и вырос в, так называемой &amp;laquo;столице российской провинции&amp;raquo;, городе Урюпинск.&lt;/p&gt;&#xA;&lt;p&gt;С самого детства меня всегда привлекали различные школьные мероприятия. По окончанию школы я поступил в Волгоградский аграрный университет. Я сразу влился в активную студенческую жизнь факультета и в 2018 году, когда мне предложили стать председателем общежития №2, недолго раздумывая, я согласился возглавить этот пост. Конечно, сначала было непросто, но у меня были отличные наставники, огромное им за это спасибо!&lt;/p&gt;&#xA;&lt;p&gt;4 года назад я и не мог представить, насколько изменится моя жизнь в университете. Мы стали одной дружной семьей, не раз выручали друг друга и всегда весело проводили время.&amp;raquo;&lt;/p&gt;&#xA;&lt;p&gt;Активная работа на факультете, деятельность в Ассоциации студентов общежития №2 и работа по другим направлениям молодежной политики вуза наполнила студенческую жизнь Алексея значимыми событиями. Все 4 года обучения Алексей ответственно исполнял обязанности старосты, чем заслужил доверие и уважение не только одногруппников, но и преподавателей.&lt;/p&gt;&#xA;&lt;p&gt;26 июня 2021 года Алексей дал клятву верности Родине на главной высоте России&amp;nbsp;&amp;ndash; на Мамаевом кургане и сейчас находится на военно-полевых сборах на полигоне Прудбой. Необходимо заметить, что проходя обучение в Военном учебном центре ВолГАУ, Алексей является командиром учебного взвода.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;С гордостью могу сказать, что ВолГАУ действительно один из лучших аграрных вузов страны! А инженерно-технологический факультет для меня навсегда останется самым родным!&amp;raquo;&amp;nbsp;&amp;ndash; утверждает Алексей.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="2598ab69-bdae-4891-86b6-b3fff6dd87d4">
+      <Value Key="Image" Value="file:106547" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Шевчук Ростислав" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;&amp;laquo;Большую часть своей жизни я прожил в деревне, поэтому при выборе специальности я отдал предпочтение Аграрному университету и поступил на инженерно-технологический факультет. С первых дней обучения я понял, что сделал верный выбор&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;С первых дней Ростислав ответственно исполнял обязанности старосты группы, чем заслужил доверие и уважение одногруппников и преподавателей.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Ещё в школе я увлекался военной историей, что побудило при поступлении в вуз вступить в поисковый отряд &amp;laquo;Сталинград&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Поисковая деятельность это добровольная работа увлеченных историей своей страны людей, для которых важно, чтобы каждый погибший солдат Великой Отечественной войны, который остался лежать на полях сражений, был найден и захоронен, ведь, как сказал давно Суворов: &quot;Война не окончена, пока не захоронен последний солдат&quot;!&amp;raquo;&lt;/p&gt;&#xA;&lt;p&gt;26 июня 2021 года Ростислав дал клятву верности Родине на главной высоте России&amp;nbsp;&amp;ndash; на Мамаевом кургане и сейчас находится на военно-полевых сборах на полигоне Прудбой.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Я очень благодарен нашему Аграрному университету за эту уникальную возможность прикоснуться к истории и внести свой вклад в поисковое движение!&amp;raquo;&amp;nbsp;&amp;ndash; констатирует Ростислав.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="ad86a9c0-883e-401b-9fe4-9afcf94525d0">
+      <Value Key="Image" Value="file:106562" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Логинов Алексей" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;&amp;laquo;Поступая в ВолГАУ, я даже и не представлял какие интересные возможности откроются передо мной за годы обучения. Я побывал в множестве новых городов, обрел массу новых знакомств, а также получил драгоценный опыт, который будет незаменим в будущем!&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Все 4 года, с первых дней обучения, Алексей ответственно исполнял обязанности старосты группы и руководителя отдела административно-хозяйственной работы на факультете, чем заслужил доверие и уважение не только одногруппников, но и преподавателей.&lt;/p&gt;&#xA;&lt;p&gt;В процессе обучения Алексей не только обучался на отлично, но и активно занимался наукой, спортом и творчеством. В его копилке множество различных наград:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Призер многочисленных Всероссийских и международных олимпиад по агроинженерии.&lt;/li&gt;&#xA;&lt;li&gt;Стипендиат Правительства РФ и Россельхозбанка.&lt;/li&gt;&#xA;&lt;li&gt;Обладатель знака качества обучающихся &quot;Слава и гордость ВолГАУ&quot;.&lt;/li&gt;&#xA;&lt;li&gt;Обладатель звания &amp;laquo;Мистер студенчество ВолГАУ 2021&amp;raquo;&lt;/li&gt;&#xA;&lt;li&gt;Обладатель золотого значка ГТО 2021&lt;/li&gt;&#xA;&lt;li&gt;Будущий офицер&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Алексей окончил инженерно-технологический факультет с красным дипломом, а так же параллельно получил второе высшее образование в Волгоградском Государственном Техническом университете, где такой же с легкостью справлялся с обязанностями старосты группы.&lt;/p&gt;&#xA;&lt;p&gt;26 июня 2021 года Алексей дал клятву верности Родине на главной высоте России&amp;nbsp;&amp;ndash; на Мамаевом кургане и сейчас находится на военно-полевых сборах на полигоне Прудбой.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;На сегодняшний день очень много планов и идей в своей дальнейшей реализации&amp;nbsp;&amp;ndash; все благодаря Аграрному дому и родному факультету!&amp;raquo;&amp;nbsp;&amp;ndash; констатирует Алексей.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="7a1da366-24ec-4185-a573-2017e7abc67c" AttributeSetName="VypusknikiHeader" EntityGUID="e4f6c541-4689-4590-bf23-0e5613a782ad">
+      <Value Key="Title" Value="Электроэнергетический факультет" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="40cd27aa-092e-450f-8d94-ec5ce8caca3e">
+      <Value Key="Image" Value="file:106578" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Андросов Сергей" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;&amp;laquo;Мой путь начинался в Республике Казахстан, в городе Уральск, там я родился и вырос. В школьные времена я не сидел на месте и всегда старался познавать что-либо новое. Также и мой путь, как активиста начался именно там, я участвовал во всех школьных мероприятиях и старался быть везде. После школы я переехал в Волгоград и поступил в ВолГАУ, на направление, которое меня привлекало всегда. На втором курсе мне предложили стать председателем Общежития №6 и я сразу же согласился. Активная деятельность в Университете и в Общежития №6 помогла мне стать тем, кем я являюсь сейчас, открыла во мне потенциал.&lt;/p&gt;&#xA;&lt;p&gt;Хочу сказать большое спасибо ВолГАУ за все предоставленные возможности, и своему любимому Электроэнергетическому факультету за незабываемые 4 года, и за то, что мы стали семьёй.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="c1bca1d5-3be4-419e-967b-8bf03f9b5f41">
+      <Value Key="Image" Value="file:106579" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Рябуха Сергей" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Говорят, что студенческие годы&amp;nbsp;&amp;mdash; это самая прекрасная пора в жизни и с этим невозможно не согласится. Сергей приехал в замечательный город Волгоград из небольшого посёлка под названием Жердевка Тамбовской области.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Передо мной стоял выбор между несколькими вузами, но после того как я узнал, что в Волгоградском ГАУ есть духовой оркестр все раздумья отпали. После поступления на электроэнергетический факультет, я сразу же направился на прослушивание, после чего был принят в этот замечательный коллектив, в котором провёл 4 незабываемых года&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Впереди Сергея ждала насыщенная студенческая жизнь, наполненная различными мероприятиями, концертами, конкурсами как внутри вуза, так и за его пределами.&lt;/p&gt;&#xA;&lt;p&gt;В составе эстрадно-духового оркестра Сергей исколесил всю Волгоградскую область и не раз завоевывал награды на региональном и областном уровне.&lt;/p&gt;&#xA;&lt;p&gt;Также, в его составе Сергей стал лауреатом I степени Всероссийского конкурса среди духовых оркестров в городе Уфа.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Какое мое самое запоминающиеся выступление? Конечно же отчетный концерт, приуроченный 10-летию оркестра. 19 произведений, полный зал гостей, это было что-то невероятное! Именно тогда я почувствовал себя профессиональным музыкантом. Это непередаваемые эмоции, которые навсегда оставили отпечаток в моем сердце&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Несмотря на то, что приходилось отдавать очень много сил и времени репетициям и выступлениям в составе оркестра, Сергей не забывал и про учебу. Он активно занимался научной деятельностью и закончил университет с красным дипломом.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Обучение в Волгоградском ГАУ принесло мне огромное количество незабываемого опыта, верных друзей, большой творческий навык и важные знания в области своей профессии. Спасибо нашему ВУЗу за это время! За все те жизненные уроки, возможности, которые я смог вынести из его стен! За тех людей, с которыми он меня свёл! За то, что я теперь&amp;nbsp;&amp;mdash; частичка истории этого учебного заведения&amp;raquo;.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="7a1da366-24ec-4185-a573-2017e7abc67c" AttributeSetName="VypusknikiHeader" EntityGUID="eeb33a8b-0fb6-4250-a220-f763385a7c68">
+      <Value Key="Title" Value="Экономический факультет" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="6c5da932-2dde-465a-bfaf-04e137bfea9d">
+      <Value Key="Image" Value="file:106583" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Ватлин Максим" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;С первого курса Максим вступил в ряды активистов Ассоциации студентов экономического факультета (АСЭФ).&lt;/p&gt;&#xA;&lt;p&gt;За все время обучения Максим смог осуществить свою мечту, приобрести автомобиль и объездить с командой профориентационного отдела школы города Волгограда, чтобы оповестить выпускников о правилах приема в наш вуз.&lt;/p&gt;&#xA;&lt;p&gt;Помимо это Максим принимал участие в творческих мероприятиях таких, как вузовского уровня, так и городского. Получив квалификацию &amp;laquo;Судебная экономическая экспертиза&amp;raquo; Максим планирует работать по специальности. Для Максима студенческая жизнь&amp;nbsp;&amp;mdash; это&amp;nbsp;лучшие годы в&amp;nbsp;жизни, и ценен каждый миг студенчества. За&amp;nbsp;это время он не только многому научился и освоил выбранную профессию, но и нашел много новых друзей. Здесь сбываются любые мечты!&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="2f7a8a57-b5e6-4990-b112-e78f954e7de1">
+      <Value Key="Image" Value="file:106581" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Гавринева Наталья" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;&amp;laquo;Вся жизнь в нашей большой семье тесно связана с Волгоградским государственным аграрным университетом. Мой дедушка был одним из первых выпускников нашего вуза и вместе с моей бабушкой проработал здесь многие годы. Мои родители тоже закончили наш университет, поэтому, когда пришло время выбирать себе учебное заведение после окончания школы, я ни секунды не сомневалась и подала документы в самый лучший вуз&amp;nbsp;&amp;mdash; Волгоградский государственный аграрный университет&amp;raquo;. Это слова Гавриневой Натальи.&lt;/p&gt;&#xA;&lt;p&gt;Наталья всегда находится в гуще событий. Это повелось со школьных лет: она училась в кадетском классе, участвовала и побеждала в кадетских балах, была волонтером, участником Вахты Памяти на Посту №1, была участником и хореографом школьного театрального объединения. Все это Наталья совмещала с занятиями народными танцами.&lt;/p&gt;&#xA;&lt;p&gt;Став студенткой, Наталья сразу почувствовала себя, что нашла свое место. Ее всегда отличала активная жизненная позиция, творческий подход к решению проблемы, лидерские качества. Все это отлично раскрылось во время учебы. С первого курса Наталья староста группы, руководитель творческого отдела на факультете, участник РССМ, танцует в составе народного коллектива &amp;laquo;Золотой колос&amp;raquo;, сотрудничает с общественной организацией &amp;laquo;Дом дружбы&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;В 2020 г. Наталья была награждена почетным знаком &amp;laquo;Слава и гордость ВолГАУ&amp;raquo;. Она является стипендиатом главы города-героя Волгограда на 2019-2020&amp;nbsp;гг., победителем всероссийского конкурса &amp;laquo;Начинающий фермер&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;В мае 2021 г. Наталья в составе народного ансамбля &amp;laquo;Золотой колос&amp;raquo; принимала участие в открытом фестивале студенческого творчества высших учебных заведений Минсельхоза России в городе Казань. Коллектив отлично выступил и привез награды за одно второе и два третьих места.&lt;/p&gt;&#xA;&lt;p&gt;Общественная деятельность не мешает Наталье учиться на &amp;laquo;отлично&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Мои студенческие годы пролетели быстро. Вчерашние студенты стоят на пороге нового жизненного этапа. Каким он будет, зависит только от нас. Знания и умения, полученные в Волгоградском ГАУ&amp;nbsp;&amp;ndash; бесценны. И, несомненно, станут фундаментом дальнейшей моей жизни&amp;raquo;.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="de04faa3-70d5-4e14-b524-c3d2b9e98c35">
+      <Value Key="Image" Value="file:106582" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Голованова София" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;&amp;laquo;Я хочу как мама!!!&amp;raquo; именно такие слова маленькая София, еще в 4 года сказала своим родителям. С самого детства маленькая Софа наблюдала как мама Юлия работала главным бухгалтером, не пугали ни большие цифры, ни страшные слова &amp;laquo;бухгалтерский учет!&amp;raquo;. Год за годом менялись мечты, взгляды, но лишь одно было неизменно&amp;nbsp;&amp;ndash; профессия мечты! Позади ОГЭ, ЕГЭ и вот уже Соня перед выбором своего пути, много советов, пожеланий в выборе университета, но в сердце запал только один&amp;nbsp;&amp;ndash; Волгоградский государственный аграрный университет!&lt;/p&gt;&#xA;&lt;p&gt;Утро&amp;hellip; 1 сентября 2017 года&amp;hellip; Волнение&amp;hellip; Мечта начала сбываться. &amp;laquo;Меня переполняли эмоции, хотелось скорее погрузиться в жизнь студента&amp;raquo;- именно так вспоминает об этом дне уже нынешняя выпускница. &amp;laquo;Я безумно рада быть частью этой большой аграрной семьи. Я готова возвращаться сюда снова и снова&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Время начало идти стремительно, с первого курса София стала активно принимать участие в жизни университета. Первые выступления на сцене, конкурсы, маленькие победы и конечно много новых друзей. И вот уже Соня вступила в ряды активистов экономического факультета в роли руководителя Профориентационного отдела экономического факультета.&lt;/p&gt;&#xA;&lt;p&gt;Уже на втором курсе София была полностью погружена в жизнь факультета, не только активной ее части, но и научной. Конференции, круглые столы, региональные и всероссийские конкурсы. &amp;laquo;Мне радостно вспоминать, что нам удалось уже на втором курсе стать победителями в конкурсе &amp;laquo;Начинающий фермер&amp;raquo;, где нас пригласили на стажировку в крупную компанию ЭкоНива АПК- холдинг&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;На этом победы не заканчивались, такой конкурс как &amp;laquo;Всероссийский конкурс на лучшие научные работы студентов и аспирантов&amp;raquo; от Министерства сельского хозяйства принес Софии 1 место. Далее уже в статусе &amp;laquo;Всероссийский конкурс &amp;laquo;Начинающий фермер&amp;raquo;&amp;raquo; университет предоставил возможность стать победителем.&lt;/p&gt;&#xA;&lt;p&gt;Жизнь активиста продолжалась, на 3 курсе Софии удалось стать председателем экономического факультета, но это не как не влияло на учебную часть. София училась только на &amp;laquo;отлично&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Мне не верится, что я смогла получить профессию бухгалтер и что так быстро прошли 4 года, я всей душой благодарна родителям за то, что у меня была возможность учиться в лучшем университете в мире!&amp;raquo;&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="ef9f934c-fa64-4dee-a53c-4e75032c345e">
+      <Value Key="Image" Value="file:106584" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Ким Евгений" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Обычный парень, относящийся к жизни с оптимизмом.&lt;/p&gt;&#xA;&lt;p&gt;Со II курса вступил в ряды активистов на факультете.&lt;/p&gt;&#xA;&lt;p&gt;Участвовал в конкурсах, акциях, мероприятиях.&lt;/p&gt;&#xA;&lt;p&gt;Отстаивал честь факультета на Межфакультетском смотре в номинации: &amp;laquo;Бардовские песни&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Был старостой 3 этажа в общежитии №5 ВолГАУ.&lt;/p&gt;&#xA;&lt;p&gt;Все это, помогло мне встретить хороших и верных друзей.&lt;/p&gt;&#xA;&lt;p&gt;Мысли Евгения о жизни в университете: &amp;laquo;Получение знаний было моей главной целью и родной факультет помог мне заняться саморазвитием в различных направлениях, в том числе игре на гитаре. Здесь я начал писать стихи. Необъяснимо, но факт, когда неожиданно приходит муза и ты пишешь где угодно: в телефоне, на куске бумаге, в тетрадке с лекциями. Я благодарен каждому году в стенах ВУЗа, он дал мне много знаний, внес свои коррективы в становление личности. Спасибо родному ВУЗу, факультету, студенческому совету, всем преподавателям!&amp;raquo;.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="b68b4a10-2454-4da4-9918-57fc10c17f82">
+      <Value Key="Image" Value="file:106585" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Сергеева Татьяна" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;В 2016 году Татьяна окончила МОУ Гимназию № 10 и, недолго думая, поступила в Волгоградский государственный аграрный университет, тогда и начались, как она не раз говорила, &amp;laquo;самые лучшие годы&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Уже с первого курса Татьяна не только хорошо училась, но и принимала активное участие в жизни университета, участвуя в различных конкурсах.&lt;/p&gt;&#xA;&lt;p&gt;Через полгода она начала работать в пресс-центре своего факультета, где на 5 курсе успела побыть его руководителем. Мероприятия и праздники ВолГАУ непременно попадали в объектив студентки и навсегда оставались в памяти в виде фотографий. В 2019 году Татьяна даже участвовала в фестивале студенческих и школьных СМИ, в котором заняла 2 место в номинации лучший репортаж.&lt;/p&gt;&#xA;&lt;p&gt;Кроме того, Татьяна была волонтером ЧМ 2018, обучение которых проходило в ВолГАУ&amp;nbsp;&amp;ndash; &amp;laquo;Когда я узнала, что наша страна, и в частности наш город Волгоград, будет проводить такое масштабное мероприятие, мне захотелось оставить свой след в этой истории, поэтому я прошла обучение и стала волонтером ЧМ 2018!&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;За время всего обучения Татьяна также участвовала форумах и слетах, в числе которых &amp;laquo;VВолГАУ.ru&amp;raquo;, &amp;laquo;Дом Дружбы&amp;raquo; и &amp;laquo;Пятый семестр&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Тогда я не думала,&amp;nbsp;&amp;mdash; вспоминает Татьяна,&amp;nbsp;&amp;mdash; что поступление сюда настолько перевернет мою жизнь. Я очень рада, что училась в ВолГАУ&amp;raquo;.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="b4b697ff-7f48-4719-9ec4-f431e44c14a7">
+      <Value Key="Image" Value="file:106580" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Эрендженов Олег" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;За период обучения Олег показал себя исключительно трудолюбивым, и ответственным студентом. Всегда яркий и талантливый, он пользуется заслуженным авторитетом у сокурсников и уважением у преподавателей. На этот путь его наставили отец и бабушка, которые также обучались в ВолГАУ в своё время на том же факультете и направлении, и достигли определенных высот в своём ремесле.&lt;/p&gt;&#xA;&lt;p&gt;Олег в течении 5 лет являлся активистом Ассоциации студентов экономического факультета ВолГАУ во время обучения на специалитете, всегда принимает активное участие в организации вузовских культурно-массовых мероприятиях. Олег готовит к выпуску сборник собственных сочинений. Кроме активной работы в самом университете, Олег развивается и вне его границ. Является заместителем регионального координатора Корпуса Общественных наблюдателей при поддержке Российского Союза Молодежи. Присвоено звание&amp;nbsp;&amp;mdash; Федеральный Эксперт.&lt;/p&gt;&#xA;&lt;p&gt;Занимался проведением мониторинга на ЕГЭ в разных субъектах Российской Федерации. Принимает активное участие в работе Общероссийской общественной молодежной организации &amp;laquo;Российский союз молодежи&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Являлся призёром многих конкурсов чтецов, а так же первым Вице-Мистером ВолГАУ 2020 года. Стремление к познанию нового, сложного, неизведанного проявляется в его учёбе: все сессии Олег сдаёт на &amp;laquo;хорошо&amp;raquo; и &amp;laquo;отлично&amp;raquo;.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="7a1da366-24ec-4185-a573-2017e7abc67c" AttributeSetName="VypusknikiHeader" EntityGUID="067b3bbe-17a5-4d01-9252-33e23adce851">
+      <Value Key="Title" Value="Факультет перерабатывающих технологий и товароведения" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="1a326ed3-9863-407c-a642-f763a8abcc39">
+      <Value Key="Image" Value="file:106591" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Гаврюшенко Алексей" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Поступив в ВолГАУ, Алексей не только получил знания в области перерабатывающей промышленности, но и смог реализовать в должности Председателя Ассоциации Студентов факультета ПТиТ свои идеи и проекты в области молодёжной политики факультета.&lt;/p&gt;&#xA;&lt;p&gt;За время обучения Алексей показал себя целеустремлённым, креативным, ответственным и грамотным лидером.&lt;/p&gt;&#xA;&lt;p&gt;Большим достижением Алексея в области молодежной политики факультета стали такие проекты: &amp;laquo;Рейтинговая Система Активистов и Руководителей АСФ&amp;raquo;, &amp;laquo;Брендированная продукция факультета ПТиТ&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Алексей всегда помогал влиться студентам в яркую студенческую жизнь и раскрывал потенциал каждого, кто вступал в ряды активистов факультета. Таким образом создавая дружную команду факультета #ПТиТfamily, которая в 2020 году заняла 1 место по вузу в области воспитательной и социальной работы.&lt;/p&gt;&#xA;&lt;p&gt;За особые заслуги в учебе и молодёжной политике вуза Алексей награжден студенческим знаком отличия &amp;laquo;Слава и гордость ВолГАУ&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Поступив в вуз, я вытащил счастливый билет, который мне подарил путевку в жизнь, а также людей, которые меня окружали все эти годы&amp;raquo;&amp;nbsp;&amp;mdash; с гордостью говорит Алексей.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="d85145ed-9307-466a-b533-0d2b871d9bc2">
+      <Value Key="Image" Value="file:106589" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Гуреева Дарья " Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Двери аграрного университета для Дарьи впервые открылись в 2017 году. После окончания школы, не пришлось долго раздумывать над тем, где продолжить обучение, ведь здесь учились ее мама и старший брат.&lt;/p&gt;&#xA;&lt;p&gt;Аграрный вуз стал для семьи Гуреевых вторым родным домом.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;На первом курсе я узнала, что в вузе существует очень много молодёжных объединений и чем больше узнавала об активистах и волонтёрах, тем больше хотелось погрузиться в эту атмосферу&amp;raquo;&amp;nbsp;&amp;ndash; вспоминает выпускница.&lt;/p&gt;&#xA;&lt;p&gt;Став участником молодежного форума в 2017 г. она понимает, что уже не сможет представить свою жизнь без участия в молодежной политике вуза.&lt;/p&gt;&#xA;&lt;p&gt;Дарья находит себе занятия по душе и уже в качестве волонтера отправляется сдавать в донорский центр кровь. С 2019 года по счастливой случайности определена в знаменную группу университета.&lt;/p&gt;&#xA;&lt;p&gt;Впереди длинный путь во взрослую жизнь. Но Дарья твердо уверена в своем будущем, так как за ее плечами неоценимый багаж знаний, которые она получила в университете, а также неоценимый опыт в сфере молодежной политики.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="dfeb6c6e-ee58-4c5d-94cb-57ce5af46c4f">
+      <Value Key="Image" Value="file:106590" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Матасова Валентина" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Отличница в учёбе, разносторонняя, целеустремленная, ответственная девушка демонстрировала лучшие качества в различных сферах деятельности.&lt;/p&gt;&#xA;&lt;p&gt;В стенах любимого вуза Валентина получила знания не только в области переработки сельскохозяйственного сырья, но и смогла реализовать свои творческие идеи и проекты в научной сфере.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Со дня поступления нам, студентам, твердили &amp;laquo;Волгоградский ГАУ&amp;nbsp;&amp;ndash; вуз больших возможностей!&amp;raquo;. И отучившись вот уже 7 лет, я убедилась в правдивости этого высказывания! За годы обучения мне удалось получить образование по двум направлениям подготовки и достигнуть значительных успехов в научной деятельности&amp;raquo;&amp;nbsp;&amp;ndash; говорит выпускница.&lt;/p&gt;&#xA;&lt;p&gt;Валентина с первого курса является первым помощником факультета. Ни одна выставка не обходится без ее участия. Полученные знания и опыт в области переработки растительного сырья она активно демонстрирует на многочисленных научно-практических конференциях, является соавтором патентов на изобретение в области функциональных продуктов питания.&lt;/p&gt;&#xA;&lt;p&gt;Перед такими выпускниками как Валентина открыты все двери.&lt;/p&gt;&#xA;&lt;p&gt;Видя результаты деятельности выпускников факультета перерабатывающих технологий и товароведения в творческой, научно-исследовательских сферах можно с уверенностью утверждать, что перерабатывающая отрасль сельского хозяйства находится в надежных руках.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="d22bf66c-0d1d-4749-b123-a2a9ddd32887">
+      <Value Key="Image" Value="file:106588" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Сапункова Александра" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;В Волгоградский государственный аграрный университет Александра поступила в 2017 году.&lt;/p&gt;&#xA;&lt;p&gt;Тонкая, хрупкая, чувствительная девушка с самого начала проявила себя очень ответственным, инициативным человеком, и вскоре стала старостой.&lt;/p&gt;&#xA;&lt;p&gt;Придя в Центр духовно-нравственного воспитания и художественного творчества, Александра уверенно включилась в его работу и стала активистом Центра.&lt;/p&gt;&#xA;&lt;p&gt;Жизненное кредо Александры&amp;nbsp;&amp;ndash; &amp;laquo;для достижения цели главное верить в себя&amp;raquo;. Она всегда открыта новым знаниям, решительно и с удовольствием берется за новые дела, не боится трудностей и успешно их преодолевает.&lt;/p&gt;&#xA;&lt;p&gt;Искренность и отзывчивость&amp;nbsp;&amp;ndash; одни из главных качеств Александры. Не случайно её мировоззренческим девизом стали слова &amp;laquo;Красота, Гармония, Сопереживание&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Саша&amp;nbsp;&amp;ndash; человек, увлеченный творчеством, и не представляющий жизни без него. Она с детства любит музыку, увлекается танцами, рисует и пишет &amp;laquo;белые&amp;raquo; стихи.&lt;/p&gt;&#xA;&lt;p&gt;Поступив в ВолГАУ, Саша начала заниматься танцами на факультете ПТиТ, но, узнав о студии декоративно-прикладного творчества, открыла для себя новое творческое направление&amp;nbsp;&amp;ndash; батик. Перед Сашей стал выбор, и она сделала его в пользу росписи по ткани.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Обожаю сам процесс создания работы, ведь я погружаюсь в него полностью, и больше мне ничего не нужно. Когда думаю над новой работой, то воображение находится за гранью реального. Мне нравится видеть необычное в обычном, создавать волшебные, сказочные образы, передавать мысли и эмоции цветом и линией&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Мир образов Александры романтичен и тонок, она чутко ощущает переходы цвета, работая на полутонах. Саша творит вдумчиво, осторожно и трепетно, медленно продвигаясь к созданию нового образа.&lt;/p&gt;&#xA;&lt;p&gt;Она с удовольствием осваивает новые приемы, технологии, и, по словам Александры, &amp;laquo;днями и ночами готова творить хоть до упада&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Расширяя границы творческих возможностей, в 2020 году она успешно окончила курсы &amp;laquo;Fashion иллюстрация&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Стремясь к творческому совершенствованию, Александра регулярно участвует в выставках и конкурсах декоративно-прикладного творчества, достойно представляя родной университет и поднимая его престиж, в том числе и на Всероссийском уровне.&lt;/p&gt;&#xA;&lt;p&gt;С 2018 года Александра&amp;nbsp;&amp;ndash; постоянный участник профессиональных выставок в Выставочном зале Союза художников России (г.Волгоград)&amp;nbsp;&amp;ndash; в её творческом багаже уже 8 выставок!&lt;/p&gt;&#xA;&lt;p&gt;В июне&amp;nbsp;&amp;ndash; августе 2019 года в Выставочном зале Красноармейского района состоялась персональная выставка Сапунковой Александры.&lt;/p&gt;&#xA;&lt;p&gt;В мае 2019 года Александра стала лауреатом 1 степени VI Всероссийского фестиваля студенческого творчества вузов Минсельхоза &amp;laquo;На волнах Агидели&amp;raquo; (г. Уфа) в номинации декоративно-прикладное творчество, батик.&lt;/p&gt;&#xA;&lt;p&gt;В ноябре 2020 года&amp;nbsp;&amp;ndash; лауреатом I степени Всероссийского конкурса &amp;laquo;Всем миром против терроризма&amp;raquo;&lt;/p&gt;&#xA;&lt;p&gt;В мае 2021 Александра стала лауреатом II степени Международного фестиваля-конкурса &amp;laquo;Триумф&amp;raquo;, лауреатом III Международного фестиваля-конкурса &amp;laquo;Ветер перемен&amp;raquo;, лауреатом III Международного фестиваля-конкурса &amp;laquo;Феерия&amp;raquo;.&lt;/p&gt;&#xA;&lt;p&gt;Батики Саши были постоянным украшением мероприятий нашего университета, и в настоящее время в выставочной галерее Центра творческой молодежи представлена персональная выставка Александры Сапунковой.&lt;/p&gt;&#xA;&lt;p&gt;Отношение Саши к творчеству и жизни в целом прекрасно отражено в её стихах:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Только творчество живёт вместе с нами&lt;/em&gt;&lt;br /&gt;&lt;em&gt;Яркими моментами жизнь всегда освещая&lt;/em&gt;&lt;br /&gt;&lt;em&gt;Радуйтесь тому что делаете сами&lt;/em&gt;&lt;br /&gt;&lt;em&gt;Свои таланты людям другим открывая&lt;/em&gt;&lt;br /&gt;&lt;em&gt;Достигая ежедневно больших побед.&lt;/em&gt;&lt;br /&gt;&lt;em&gt;Стараюсь всегда идти к намеченной цели, не видя перед собой преград...&lt;/em&gt;&lt;br /&gt;&lt;em&gt;Проживайте каждый день, без оглядки на прошлое.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Пусть дальнейшая жизнь Александры, личная и профессиональная, будет такой же яркой и необычной, как её творчество!&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="39821033-c871-4de2-96ec-b08ced849d54">
+      <Value Key="Image" Value="file:106587" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Щетинин Артём" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Артём приехал поступать в университет из станицы Нехаевской.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Я очень рад, что выбрал Аграрный университет, где смог реализовать свой потенциал, получить необходимые знания и навыки, поддержку, колоссальный опыт и высокую оценку в своей работе&amp;raquo;&amp;nbsp;&amp;mdash; вспоминает выпускник.&lt;/p&gt;&#xA;&lt;p&gt;Артём, живя в сельской местности, с детства проводил свободное время на пасеке. В его семье три поколения пчеловодов.&lt;/p&gt;&#xA;&lt;p&gt;Поступив на первый курс, он заинтересовался наукой и под наставлениями своего научного руководителя стал разрабатывать свои первые проекты. А так как с детства он увлекался пчеловодством, решил двигаться вперед именно по этому направлению. Принимал активное участие во многих форумах, выступал с докладами на конференциях, стал победителем и призером профильных конкурсов и олимпиад. Постепенно начал публиковать научные работы, статьи, занимался разработкой рецептуры и технологии производства пищевых продуктов из продукции пчеловодства, которые в дальнейшем были переданы в ФИПС и запатентованы вузом.&lt;/p&gt;&#xA;&lt;p&gt;Открытый для общения и диалога ответственный, целеустремлённый, настойчивый, уверенный в себе, пунктуальный, неконфликтный, внимательный к деталям молодой человек демонстрировал лучшие качества в различных сферах деятельности вуза.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;Студенческие годы меня многому научили, и я с благодарностью отношусь за это к своим преподавателям. Вуз стал для меня вторым домом, оставив самые теплые воспоминания&amp;raquo;&amp;nbsp;&amp;mdash; утверждает выпускник.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+    <Entity AssignmentObjectType="Default" AttributeSetStaticName="ad3180f5-5732-4b36-9102-3d1c80860d05" AttributeSetName="Vypusknik" EntityGUID="2f7d846d-b5dc-4967-b434-a2b7a066c4d1">
+      <Value Key="Image" Value="file:106586" Type="Hyperlink">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Name" Value="Ференец Петр" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+      <Value Key="Text" Value="&lt;p&gt;Выбрал профессию технолога сельскохозяйственного производства Петр неспроста. Все поколения семьи Ференцов занимались сельскохозяйственной деятельностью: выращивали зерновые культуры и выпекали хлеб.&lt;/p&gt;&#xA;&lt;p&gt;Окончив школу, Петр выбрал профессию, которая была ему по душе&amp;nbsp;&amp;ndash; кондитер. За годы учёбы, от колледжа до вуза, он получил колоссальный практический опыт на различных предприятиях: ресторанах, кафе, пекарнях.&lt;/p&gt;&#xA;&lt;p&gt;Специалист своего дела должен успевать все! Поэтому у будущего кондитера не остаются в стороне все знаковые мероприятия и проекты. Петр становится волонтёром на чемпионате мира по футболу 2018&amp;nbsp;г., донором крови, тим-лидера в сборной World Skills 2019.&lt;/p&gt;&#xA;&lt;p&gt;Основной целью выпускника факультета являлось достижение высшего кондитерского искусства и открытие своего дела.&lt;/p&gt;&#xA;&lt;p&gt;&amp;laquo;За этот долгий промежуток времени, который длился 9 лет, я нашёл свою &amp;laquo;фишку&amp;raquo; во вкусах. Придумал и приготовил 27 рецептов &amp;mdash; и это не конец. Я вижу и иду к своей цели&amp;raquo; &amp;mdash; говорит выпускник.&lt;/p&gt;" Type="String">
+        <Dimension DimensionID="4" ReadOnly="false" />
+      </Value>
+    </Entity>
+  </Entities>
+  <PortalFiles>
+    <File Id="106494" RelativePath="21\210706\gedz_fedor.jpg" />
+    <File Id="106491" RelativePath="21\210706\guzenko_ekaterina.jpg" />
+    <File Id="106492" RelativePath="21\210706\sviridonova_irina.jpg" />
+    <File Id="106490" RelativePath="21\210706\pazuhina_aleksandra.jpg" />
+    <File Id="106493" RelativePath="21\210706\shalygin_aleksandr.jpg" />
+    <File Id="106489" RelativePath="21\210706\kartashov_mihail.jpg" />
+    <File Id="106495" RelativePath="21\210706\mihaylin_andrey.jpg" />
+    <File Id="106548" RelativePath="21\210708\koshkina_viktoriya.jpg" />
+    <File Id="106551" RelativePath="21\210708\leonteva_mariya.jpg" />
+    <File Id="106550" RelativePath="21\210708\nepokryty_roman.jpg" />
+    <File Id="106552" RelativePath="21\210708\hadashov_magomed.jpg" />
+    <File Id="106549" RelativePath="21\210708\hrapov_aleksey.jpg" />
+    <File Id="106547" RelativePath="21\210708\shevchuk_rostislav.jpg" />
+    <File Id="106562" RelativePath="21\210708\loginov_aleksey.jpg" />
+    <File Id="106578" RelativePath="21\210710\androsov_sergey.jpg" />
+    <File Id="106579" RelativePath="21\210710\ryabuha_sergey.jpg" />
+    <File Id="106583" RelativePath="21\210710\vatlin_maksim.jpg" />
+    <File Id="106581" RelativePath="21\210710\gavrineva_natalya.jpg" />
+    <File Id="106582" RelativePath="21\210710\golovanova_sofiya.jpg" />
+    <File Id="106584" RelativePath="21\210710\kim_evgeniy.jpg" />
+    <File Id="106585" RelativePath="21\210710\sergeeva_tatyana.jpg" />
+    <File Id="106580" RelativePath="21\210710\erendzhenov_oleg.jpg" />
+    <File Id="106591" RelativePath="21\210710\gavryushenko_aleksey.jpg" />
+    <File Id="106589" RelativePath="21\210710\gureeva_darya.jpg" />
+    <File Id="106590" RelativePath="21\210710\matasova_valentina.jpg" />
+    <File Id="106588" RelativePath="21\210710\sapunkova_aleksandra.jpg" />
+    <File Id="106587" RelativePath="21\210710\schetinin_artem.jpg" />
+    <File Id="106586" RelativePath="21\210710\ferenec_petr_ptit.jpg" />
+  </PortalFiles>
+  <PortalFolders>
+    <Folder Id="13410" RelativePath="21/210706/" />
+    <Folder Id="13432" RelativePath="21/210708/" />
+    <Folder Id="13448" RelativePath="21/210710/" />
+    <Folder Id="13407" RelativePath="adam/Vypuskniki/" />
+    <Folder Id="13463" RelativePath="adam/Vypuskniki/_5e2tEh_GUeexPQx5EwUpw/" />
+    <Folder Id="13464" RelativePath="adam/Vypuskniki/_5e2tEh_GUeexPQx5EwUpw/Image/" />
+    <Folder Id="13465" RelativePath="adam/Vypuskniki/024yGmOYfECmQvdjqKvMOQ/" />
+    <Folder Id="13466" RelativePath="adam/Vypuskniki/024yGmOYfECmQvdjqKvMOQ/Image/" />
+    <Folder Id="13451" RelativePath="adam/Vypuskniki/1aG8weQ7nkGWe4vwP5tfQQ/" />
+    <Folder Id="13452" RelativePath="adam/Vypuskniki/1aG8weQ7nkGWe4vwP5tfQQ/Image/" />
+    <Folder Id="13423" RelativePath="adam/Vypuskniki/1xYPW2f2JESpgYHD5F2KfQ/" />
+    <Folder Id="13424" RelativePath="adam/Vypuskniki/1xYPW2f2JESpgYHD5F2KfQ/Image/" />
+    <Folder Id="13411" RelativePath="adam/Vypuskniki/3W1B44Kc6E-NNG--yEpZUg/" />
+    <Folder Id="13412" RelativePath="adam/Vypuskniki/3W1B44Kc6E-NNG--yEpZUg/Image/" />
+    <Folder Id="13467" RelativePath="adam/Vypuskniki/7UVR2AeTaka1Mw0rhx2bwg/" />
+    <Folder Id="13468" RelativePath="adam/Vypuskniki/7UVR2AeTaka1Mw0rhx2bwg/Image/" />
+    <Folder Id="13443" RelativePath="adam/Vypuskniki/aauYJa69kUiGtrP_9t2H1A/" />
+    <Folder Id="13444" RelativePath="adam/Vypuskniki/aauYJa69kUiGtrP_9t2H1A/Image/" />
+    <Folder Id="13469" RelativePath="adam/Vypuskniki/bmzr31juXUyUy1fOWvRsTw/" />
+    <Folder Id="13470" RelativePath="adam/Vypuskniki/bmzr31juXUyUy1fOWvRsTw/Image/" />
+    <Folder Id="13471" RelativePath="adam/Vypuskniki/bPYr0h0NSUexI6Kp3dMohw/" />
+    <Folder Id="13472" RelativePath="adam/Vypuskniki/bPYr0h0NSUexI6Kp3dMohw/Image/" />
+    <Folder Id="13477" RelativePath="adam/Vypuskniki/bYR9L9y1Z0m0NKK3oGbE0Q/" />
+    <Folder Id="13478" RelativePath="adam/Vypuskniki/bYR9L9y1Z0m0NKK3oGbE0Q/Image/" />
+    <Folder Id="13439" RelativePath="adam/Vypuskniki/C6qAx3YrUEOZdEC0zKMlzg/" />
+    <Folder Id="13440" RelativePath="adam/Vypuskniki/C6qAx3YrUEOZdEC0zKMlzg/Image/" />
+    <Folder Id="13408" RelativePath="adam/Vypuskniki/cezUdMeLF0K-xHORxRobsg/" />
+    <Folder Id="13409" RelativePath="adam/Vypuskniki/cezUdMeLF0K-xHORxRobsg/Image/" />
+    <Folder Id="13419" RelativePath="adam/Vypuskniki/cfBk5jmmck-xt98WSJA8Pw/" />
+    <Folder Id="13420" RelativePath="adam/Vypuskniki/cfBk5jmmck-xt98WSJA8Pw/Image/" />
+    <Folder Id="13441" RelativePath="adam/Vypuskniki/-cJp3saAC0KytTfClqBswQ/" />
+    <Folder Id="13442" RelativePath="adam/Vypuskniki/-cJp3saAC0KytTfClqBswQ/Image/" />
+    <Folder Id="13461" RelativePath="adam/Vypuskniki/EEqLtlQkpE2ZGFf8EMF_gg/" />
+    <Folder Id="13462" RelativePath="adam/Vypuskniki/EEqLtlQkpE2ZGFf8EMF_gg/Image/" />
+    <Folder Id="13435" RelativePath="adam/Vypuskniki/FbSmaFf_Mk62obbK3ceT4Q/" />
+    <Folder Id="13436" RelativePath="adam/Vypuskniki/FbSmaFf_Mk62obbK3ceT4Q/Image/" />
+    <Folder Id="13427" RelativePath="adam/Vypuskniki/FprPrKXiZke38_uzvXkq-A/" />
+    <Folder Id="13428" RelativePath="adam/Vypuskniki/FprPrKXiZke38_uzvXkq-A/Image/" />
+    <Folder Id="13433" RelativePath="adam/Vypuskniki/Lt-kCi-TakeRxrISPMqvWQ/" />
+    <Folder Id="13434" RelativePath="adam/Vypuskniki/Lt-kCi-TakeRxrISPMqvWQ/Image/" />
+    <Folder Id="13453" RelativePath="adam/Vypuskniki/MqldbN4tWka_rwThN7_qnQ/" />
+    <Folder Id="13454" RelativePath="adam/Vypuskniki/MqldbN4tWka_rwThN7_qnQ/Image/" />
+    <Folder Id="13473" RelativePath="adam/Vypuskniki/MxCCOXHI4k2W7LCM7YSdVA/" />
+    <Folder Id="13474" RelativePath="adam/Vypuskniki/MxCCOXHI4k2W7LCM7YSdVA/Image/" />
+    <Folder Id="13429" RelativePath="adam/Vypuskniki/nFJuRQn_bkSXKvaE9MytrA/" />
+    <Folder Id="13430" RelativePath="adam/Vypuskniki/nFJuRQn_bkSXKvaE9MytrA/Image/" />
+    <Folder Id="13457" RelativePath="adam/Vypuskniki/o_oE3tVwFE61JMPSuemMNQ/" />
+    <Folder Id="13458" RelativePath="adam/Vypuskniki/o_oE3tVwFE61JMPSuemMNQ/Image/" />
+    <Folder Id="13475" RelativePath="adam/Vypuskniki/oY0pkZuHQ063WzYxCrVNSg/" />
+    <Folder Id="13476" RelativePath="adam/Vypuskniki/oY0pkZuHQ063WzYxCrVNSg/Image/" />
+    <Folder Id="13417" RelativePath="adam/Vypuskniki/pl-E5zlaN0Oo6FkF4FcAIw/" />
+    <Folder Id="13418" RelativePath="adam/Vypuskniki/pl-E5zlaN0Oo6FkF4FcAIw/Image/" />
+    <Folder Id="13415" RelativePath="adam/Vypuskniki/PZxQY3CtDkyYg0ROuuIPhQ/" />
+    <Folder Id="13416" RelativePath="adam/Vypuskniki/PZxQY3CtDkyYg0ROuuIPhQ/Image/" />
+    <Folder Id="13449" RelativePath="adam/Vypuskniki/qifNQC4JD0WNlOxc6MrKPg/" />
+    <Folder Id="13450" RelativePath="adam/Vypuskniki/qifNQC4JD0WNlOxc6MrKPg/Image/" />
+    <Folder Id="13413" RelativePath="adam/Vypuskniki/SlPwgVAYI0So0fcg2fN-yA/" />
+    <Folder Id="13414" RelativePath="adam/Vypuskniki/SlPwgVAYI0So0fcg2fN-yA/Image/" />
+    <Folder Id="13459" RelativePath="adam/Vypuskniki/TJOf72T67k2lPE51Ayw0Xg/" />
+    <Folder Id="13460" RelativePath="adam/Vypuskniki/TJOf72T67k2lPE51Ayw0Xg/Image/" />
+    <Folder Id="13425" RelativePath="adam/Vypuskniki/Ua-van8YKEmJOvt5c2WA9g/" />
+    <Folder Id="13426" RelativePath="adam/Vypuskniki/Ua-van8YKEmJOvt5c2WA9g/Image/" />
+    <Folder Id="13455" RelativePath="adam/Vypuskniki/V4p6L-a1kEmxEuePlU594Q/" />
+    <Folder Id="13456" RelativePath="adam/Vypuskniki/V4p6L-a1kEmxEuePlU594Q/Image/" />
+    <Folder Id="13421" RelativePath="adam/Vypuskniki/VQGUE5p3REG58pUDA7ShzQ/" />
+    <Folder Id="13422" RelativePath="adam/Vypuskniki/VQGUE5p3REG58pUDA7ShzQ/Image/" />
+    <Folder Id="13446" RelativePath="adam/Vypuskniki/wKmGrT6IG0Cf5Jr8-UUl0A/" />
+    <Folder Id="13447" RelativePath="adam/Vypuskniki/wKmGrT6IG0Cf5Jr8-UUl0A/Image/" />
+    <Folder Id="13479" RelativePath="adam/Vypuskniki/wKmGrT6IG0Cf5Jr8-UUl0A/Text/" />
+    <Folder Id="13437" RelativePath="adam/Vypuskniki/XO7LqZTk_k6vaXnJnHpk7Q/" />
+    <Folder Id="13438" RelativePath="adam/Vypuskniki/XO7LqZTk_k6vaXnJnHpk7Q/Image/" />
+  </PortalFolders>
+</SexyContent>

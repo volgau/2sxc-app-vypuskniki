@@ -1,0 +1,40 @@
+@inherits ToSic.Sxc.Dnn.RazorComponent
+@using DotNetNuke.Common;
+
+<link rel="stylesheet" href="@App.Path/vypuskniki.css" data-enableoptimizations="100"/>
+
+@if (Globals.IsEditMode()) {
+	<div class="card card-body">
+	    <h6 class="text-muted">Header</h6>
+        @Edit.Toolbar(Header)
+	</div>
+}
+
+<div id="vypuskniki_@Dnn.Module.ModuleID">
+@{var idx = 0;}
+<div class="row" >
+@foreach(var v in AsList (Data)) {
+    <div class="col-3">
+        <div @Edit.TagToolbar(v, settings: new { hover = "right" })>
+            <a class="btn-vypusknik" data-toggle="collapse" href="#vypusknik_@(Dnn.Module.ModuleID)_@idx" role="button" aria-expanded="false" aria-controls="vypusknik_@(Dnn.Module.ModuleID)_@idx">
+                <img src="@v.Image?w=255" class="img-fluid rounded mt-3" alt="@v.Name" />
+            </a>
+        </div>
+    </div>
+    idx++;
+}
+</div>
+@{idx = 0;}
+@foreach(var v in AsList (Data)) {
+    <div class="row collapse mt-3 vypusknik-content" id="vypusknik_@(Dnn.Module.ModuleID)_@idx" data-parent="#vypuskniki_@Dnn.Module.ModuleID">
+        <div class="col-md-6">
+            <img src="@v.Image?w=512" class="rounded img-fluid mb-3" style="float:left" alt="" />
+        </div>
+        <div class="col-md-6">
+            <h2>@v.Name</h2>
+            @Html.Raw(v.Text)
+        </div>
+    </div>
+    idx++;
+}
+</div>
